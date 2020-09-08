@@ -18,3 +18,4 @@ $router->get('/', function () use ($router) {
 $router->get('/uniquecode', 'UniqueCodeController@index');
 $router->get('/uniquecode/show/{id}', 'UniqueCodeController@show');
 $router->post('/uniquecode/store', 'UniqueCodeController@store');
+$router->get('/uniquecode/count', 'UniqueCodeController@count');

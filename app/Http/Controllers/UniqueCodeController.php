@@ -67,4 +67,10 @@ class UniqueCodeController extends Controller
         return response ($data);
     }
 
+    public function count()
+    {
+         
+        return response (ModelUniqueCode::count());
+    }
+
 }
